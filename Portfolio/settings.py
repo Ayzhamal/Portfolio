@@ -25,7 +25,7 @@ SECRET_KEY = '(=zgl8q6bp*l)^s85#!_1c_g)&f^d)35xnlwpb10*8$u7&284k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pacific-river-03634.herokuapp.com','ayzhamal.com','www.ayzhamal.com']
+ALLOWED_HOSTS = ['django-env.dji9nmztmx.us-west-2.elasticbeanstalk.com','pacific-river-03634.herokuapp.com','ayzhamal.com','www.ayzhamal.com', 'localhost']
 
 
 # Application definition
@@ -38,7 +38,22 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'jobs',
+    'storages',
 ]
+
+AWS_STORAGE_BUCKET_NAME='django-portfolio-ayzhamal'
+AWS_S3_REGION_NAME='us-west-2'
+AWS_ACCESS_KEY_ID='AKIAJPKVAKELQGVGSA5Q'
+AWS_SECRET_ACCESS_KEY='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'
+AWS_S3_CUSTOM_DOMAIN='%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
+AWS_DEFAULT_ACL=none
+
+STATICFILES_LOCATION='static'
+STATICFILES_STORAGE='custom_storages.StaticStorage'
+
+MEDIAFILES_LOCATION='media'
+DEFAULT_FILE_STORAGE='custom_storage.MediaStorage'
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
