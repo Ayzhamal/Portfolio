@@ -25,7 +25,7 @@ SECRET_KEY = '(=zgl8q6bp*l)^s85#!_1c_g)&f^d)35xnlwpb10*8$u7&284k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pacific-river-03634.herokuapp.com/','ayzhamal.com','www.ayzhamal.com']
+ALLOWED_HOSTS = ['pacific-river-03634.herokuapp.com','ayzhamal.com','www.ayzhamal.com']
 
 
 # Application definition
