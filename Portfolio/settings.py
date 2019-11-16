@@ -80,10 +80,10 @@ DATABASES = {
     #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     'default':{
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'portfoliodb',
-        'USER': 'postgres',
-        'PASSWORD': 'Angie2020',
-        'HOST': 'localhost',
+        'NAME': 'd647vg1m069p9n',
+        'USER': 'mvgtdgijjhhldj',
+        'PASSWORD': '99cefa174f3ee7169bd70bd3b31ed3652400b8e248d0ca93796831987d09b214',
+        'HOST': 'ec2-184-73-192-251.compute-1.amazonaws.com',
         'PORT': '5432',
     
     }
