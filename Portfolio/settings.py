@@ -52,7 +52,7 @@ STATICFILES_LOCATION='static'
 STATICFILES_STORAGE='custom_storages.StaticStorage'
 
 MEDIAFILES_LOCATION='media'
-DEFAULT_FILE_STORAGE='custom_storage.MediaStorage'
+DEFAULT_FILE_STORAGE='custom_storages.MediaStorage'
 
 
 MIDDLEWARE = [
