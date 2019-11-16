@@ -1,2 +1,2 @@
-release: python manage.py migrate
-web: gunicorn Portfolio.wsgi.application
+release: python3 manage.py migrate
+web gunicorn Portfolio.wsgi
