@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '(=zgl8q6bp*l)^s85#!_1c_g)&f^d)35xnlwpb10*8$u7&284k'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -43,8 +43,8 @@ INSTALLED_APPS = [
 
 AWS_STORAGE_BUCKET_NAME='django-portfolio-ayzhamal'
 AWS_S3_REGION_NAME='us-west-2'
-AWS_ACCESS_KEY_ID='AKIAIEOUTRHCUSP2YKKQ'
-AWS_SECRET_ACCESS_KEY='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'
+AWS_ACCESS_KEY_ID=''
+AWS_SECRET_ACCESS_KEY=''
 AWS_S3_CUSTOM_DOMAIN='%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
 AWS_DEFAULT_ACL=None
 
@@ -95,10 +95,10 @@ DATABASES = {
     #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     'default':{
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd647vg1m069p9n',
-        'USER': 'mvgtdgijjhhldj',
-        'PASSWORD': '99cefa174f3ee7169bd70bd3b31ed3652400b8e248d0ca93796831987d09b214',
-        'HOST': 'ec2-184-73-192-251.compute-1.amazonaws.com',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
         'PORT': '5432',
     
     }
